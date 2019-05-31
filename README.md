@@ -14,7 +14,13 @@ Reference: https://developer.android.com/guide/topics/ui/notifiers/toasts
 
 ### SnackBar
 
-Coming soon
+Branch name: android_core_snackbar
+
+Branch URL: https://github.com/pethersilva/associateandroiddevelopercertification/tree/android_core_snackbar
+
+Reference: https://developer.android.com/reference/android/support/design/widget/Snackbar
+
+https://developer.android.com/training/snackbar/
 
 ### Localize your App
 
