@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Certification Android Core Snackbar</string>
+    <string name="main_activity_regular_snackbar_button">Regular Snackbar</string>
+    <string name="main_activity_action_snackbar_button">Snackbar with Action</string>
+    <string name="main_activity_action_snackbar_button_delete_message">Message deleted</string>
+    <string name="main_activity_action_snackbar_button_restore_message">Message restored</string>
+    <string name="main_activity_custom_snackbar_button">Custom Snackbar</string>
+    <string name="main_activity_custom_snackbar_button_retry_message">Retry</string>
+    <string name="main_activity_custom_snackbar_button_no_internet_connection_message">No Internet Connection!</string>
+</resources>
