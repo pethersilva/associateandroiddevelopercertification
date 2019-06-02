@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Notification Me!</string>
+    <string name="main_activity_notify_me_button">Notification Me!</string>
+    <string name="main_activity_update_me_button">Update Me!</string>
+    <string name="main_activity_cancel_me_button">Cancel Me!</string>
+    <string name="main_activity_notification_title">This is the notification title</string>
+    <string name="main_activity_notification_content_text">Put here the notification text content</string>
+    <string name="main_activity_primary_notification_channel_name">Primary Channel Name</string>
+    <string name="main_activity_primary_notification_channel_description">Primary Channel Description</string>
+    <string name="main_activity_news_notification_channel_name">News Channel Name</string>
+    <string name="main_activity_news_notification_channel_description">News Channel Description</string>
+    <string name="main_activity_notification_updated_message">Notification Updated</string>
+    <string name="main_activity_notification_action_message">Action Notification Message</string>
+    <string name="notification_receiver_message">Message Broadcast Receiver</string>
+</resources>
