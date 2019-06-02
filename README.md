@@ -32,7 +32,11 @@ Coming soon
 
 ### Notification
 
-Coming soon
+Branch name: android_core_notification
+
+Branch URL: https://github.com/pethersilva/associateandroiddevelopercertification/tree/android_core_notification
+
+Reference: https://codelabs.developers.google.com/codelabs/android-training-notifications/index.html?index=..%2F..android-training#1
 
 ### JobScheduler
 
