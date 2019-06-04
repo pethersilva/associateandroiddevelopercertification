@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Certification Android Core Job Scheduler</string>
+    <string name="main_activity_network_type">Network Type Required</string>
+    <string name="main_activity_network_type_none">None</string>
+    <string name="main_activity_network_type_any">Any</string>
+    <string name="main_activity_network_type_wifi">Wifi</string>
+    <string name="main_activity_network_requires">Requires:</string>
+    <string name="main_activity_network_device_idle">Device Idle</string>
+    <string name="main_activity_network_device_charging">Device Charging</string>
+    <string name="main_activity_network_device_override_deadline">Override Deadline: Not set</string>
+    <string name="main_activity_network_device_schedule_job_button">Schedule Job </string>
+    <string name="main_activity_network_device_cancel_job_button">Cancel Jobs</string>
+</resources>
