@@ -40,7 +40,11 @@ Reference: https://codelabs.developers.google.com/codelabs/android-training-noti
 
 ### JobScheduler
 
-Coming soon
+Branch name: android_core_jobscheduler
+
+Branch URL: https://github.com/pethersilva/associateandroiddevelopercertification/tree/android_core_jobscheduler
+
+Reference: https://codelabs.developers.google.com/codelabs/android-training-job-scheduler/index.html?index=..%2F..android-training#0
 
 ## User Interface
 
