@@ -4,12 +4,10 @@ import android.app.job.JobInfo
 import android.app.job.JobScheduler
 import android.content.ComponentName
 import android.content.Context
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.SeekBar
 import android.widget.Toast
-import androidx.core.content.getSystemService
 import kotlinx.android.synthetic.main.activity_main.*
 import pethersilva.com.certificationandroidcorejobscheduler.services.NotificationJobService
 
@@ -50,10 +48,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun scheduleJob() {
 
-        var selectedNetwordID = radioGroup.checkedRadioButtonId
+        var selectedNetworkID = radioGroup.checkedRadioButtonId
         var selectedNetworkOption = JobInfo.NETWORK_TYPE_NONE
 
-        when(selectedNetwordID) {
+        when(selectedNetworkID) {
             R.id.radioButtonNone -> selectedNetworkOption = JobInfo.NETWORK_TYPE_NONE
             R.id.radioButtonAny -> selectedNetworkOption = JobInfo.NETWORK_TYPE_ANY
             R.id.radioButtonWifi -> selectedNetworkOption = JobInfo.NETWORK_TYPE_UNMETERED
@@ -79,16 +77,17 @@ class MainActivity : AppCompatActivity() {
         if (constraintSet) {
             val myJobInfo = builder.build()
             mScheduler?.schedule(myJobInfo)
-            Toast.makeText(this, "Job scheduled", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, resources.getString(R.string.main_activity_job_scheduled_message), Toast.LENGTH_LONG).show()
 
         } else {
-            Toast.makeText(this, "Set at least one constraint", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, resources.getString(R.string.main_activity_job_schedule_missing_constraint_message)
+                , Toast.LENGTH_LONG).show()
         }
     }
 
     private fun cancelJobs() {
         mScheduler?.cancelAll()
         mScheduler = null
-        Toast.makeText(this, "Job cancelled", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, resources.getString(R.string.main_activity_job_canceled_message), Toast.LENGTH_LONG).show()
     }
 }

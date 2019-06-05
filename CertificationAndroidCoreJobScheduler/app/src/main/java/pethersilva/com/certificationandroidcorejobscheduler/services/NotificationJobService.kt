@@ -26,8 +26,8 @@ class NotificationJobService : JobService() {
             PendingIntent.FLAG_UPDATE_CURRENT)
 
         val notification = NotificationCompat.Builder(this, PRIMARY_CHANNEL_ID)
-            .setContentTitle("Job Service")
-            .setContentText("Your job ran to completion")
+            .setContentTitle(resources.getString(R.string.main_activity_job_title))
+            .setContentText(resources.getString(R.string.main_activity_job_content_text))
             .setContentIntent(pendingIntent)
             .setSmallIcon(R.drawable.ic_job_running)
             .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -47,14 +47,13 @@ class NotificationJobService : JobService() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 
             val notificationChannel = NotificationChannel(
-                PRIMARY_CHANNEL_ID, "Notification Channel",
-                NotificationManager.IMPORTANCE_HIGH
-            )
+                PRIMARY_CHANNEL_ID, resources.getString(R.string.job_schedule_notification_channel),
+                NotificationManager.IMPORTANCE_HIGH)
 
             notificationChannel.enableLights(true)
             notificationChannel.lightColor = Color.RED
             notificationChannel.enableVibration(true)
-            notificationChannel.description = "Notification Description"
+            notificationChannel.description = resources.getString(R.string.job_schedule_notification_description)
             mNotificationManager?.createNotificationChannel(notificationChannel)
         }
     }
