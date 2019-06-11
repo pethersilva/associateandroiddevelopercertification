@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Job Scheduler Code Challenge</string>
+    <string name="main_activity_startjob_button_message">Start Job</string>
+</resources>
