@@ -44,6 +44,10 @@ Branch name: android_core_jobscheduler
 
 Branch URL: https://github.com/pethersilva/associateandroiddevelopercertification/tree/android_core_jobscheduler
 
+Code Challenge: https://codelabs.developers.google.com/codelabs/android-training-job-scheduler/index.html?index=..%2F..android-training#5
+
+Code Challenge Branch: https://github.com/pethersilva/associateandroiddevelopercertification/tree/android_core_jobscheduler_challenge
+
 Reference: https://codelabs.developers.google.com/codelabs/android-training-job-scheduler/index.html?index=..%2F..android-training#0
 
 ## User Interface
