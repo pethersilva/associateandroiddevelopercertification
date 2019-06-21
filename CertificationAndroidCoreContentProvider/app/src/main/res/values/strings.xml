@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">CertificationAndroidCoreContentProvider</string>
+    <string name="app_name">Certification AndroidCore Fundamentals Content Provider</string>
+    <string name="main_activity_button_add_task_message">Add task</string>
+    <string name="main_activity_task_title">Task:</string>
 </resources>
