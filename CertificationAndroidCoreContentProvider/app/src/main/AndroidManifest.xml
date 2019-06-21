@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.pethersilva.certificationandroidcorecontentprovider">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <uses-library android:name="android.test.runner"
+                      android:required="false" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <provider android:authorities="com.pethersilva.certificationandroidcorecontentprovider"
+                  android:name="com.pethersilva.certificationandroidcorecontentprovider.providers.TasksProvider"
+                  android:exported="true"
+                  android:grantUriPermissions="true"
+                  android:label="TasksProvider"
+                  android:readPermission="com.pethersilva.certificationandroidcorecontentprovider.READ"
+                  android:writePermission="com.pethersilva.certificationandroidcorecontentprovider.WRITE"/>
+    </application>
+
+</manifest>
