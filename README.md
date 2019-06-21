@@ -28,6 +28,12 @@ Coming soon
 
 ### Applications fundamentals
 
+Content Provider Branch Name: android_core_fundamentals_content_provider
+
+Content Provider Branch URL: https://github.com/pethersilva/associateandroiddevelopercertification/tree/android_core_fundamentals_content_provider
+
+Content Provider Reference: https://developer.android.com/guide/topics/providers/content-provider-basics
+
 Coming soon
 
 ### Notification
