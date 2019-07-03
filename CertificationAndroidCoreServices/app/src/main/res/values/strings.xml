@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Certification Android Core Services</string>
+    <string name="main_activity_start_service_button">Start Service</string>
+    <string name="main_activity_stop_service_button">Stop Service</string>
+    <string name="service_created_message">Service Successfully Created</string>
+    <string name="main_activity_random_generator_from_service">Random Number</string>
+</resources>
