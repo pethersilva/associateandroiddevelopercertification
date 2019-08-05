@@ -34,6 +34,12 @@ Content Provider Branch URL: https://github.com/pethersilva/associateandroiddeve
 
 Content Provider Reference: https://developer.android.com/guide/topics/providers/content-provider-basics
 
+Services Branch Name: android_core_fundamentals_services
+
+Services Branch URL: https://github.com/pethersilva/associateandroiddevelopercertification/tree/android_core_fundamentals_services
+
+Services Reference: https://developer.android.com/guide/components/services 
+
 Coming soon
 
 ### Notification
