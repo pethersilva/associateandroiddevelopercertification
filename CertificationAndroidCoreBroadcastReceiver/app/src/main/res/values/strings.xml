@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CertificationAndroidCoreBroadcastReceiver</string>
+    <string name="main_activity_send_custom_broadcast_receiver">Send Custom Broadcast</string>
 </resources>
