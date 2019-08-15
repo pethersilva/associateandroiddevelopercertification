@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val intentFilter : IntentFilter = IntentFilter()
+        val intentFilter = IntentFilter()
         intentFilter.addAction(Intent.ACTION_POWER_CONNECTED)
         intentFilter.addAction(Intent.ACTION_POWER_DISCONNECTED)
 
