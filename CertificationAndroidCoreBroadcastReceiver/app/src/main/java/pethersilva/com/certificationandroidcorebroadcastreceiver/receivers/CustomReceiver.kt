@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.widget.Toast
+import pethersilva.com.certificationandroidcorebroadcastreceiver.MainActivity
 
 class CustomReceiver : BroadcastReceiver() {
 
@@ -21,6 +22,10 @@ class CustomReceiver : BroadcastReceiver() {
 
                 Intent.ACTION_POWER_CONNECTED -> {
                     toastMessage = "Power connected"
+                }
+
+                MainActivity.ACTION_CUSTOM_BROADCAST -> {
+                    toastMessage = "Action Custom Broadcast Received"
                 }
             }
             Toast.makeText(context, toastMessage, Toast.LENGTH_SHORT).show()
