@@ -1,6 +1,6 @@
 # Associate Android Developer Certification
 
-This repository was created to keep all my study files to the Associante Android Developer Certification (AAD)
+This repository was created to keep all my study files to the Associate Android Developer Certification (AADC)
 
 ## Android Core
 
