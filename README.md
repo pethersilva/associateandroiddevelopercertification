@@ -62,6 +62,15 @@ Code Challenge Branch: https://github.com/pethersilva/associateandroiddeveloperc
 
 Reference: https://codelabs.developers.google.com/codelabs/android-training-job-scheduler/index.html?index=..%2F..android-training#0
 
+### Broadcast Receiver
+
+Branch name: android_core_fundamentals_broadcast_receiver 
+
+Branch URL: https://github.com/pethersilva/associateandroiddevelopercertification/tree/android_core_fundamentals_broadcast_receiver
+
+Reference: https://codelabs.developers.google.com/codelabs/android-training-broadcast-receivers/index.html#0
+https://developer.android.com/guide/components/broadcasts
+
 ## User Interface
 
 ### Activity and Intents
