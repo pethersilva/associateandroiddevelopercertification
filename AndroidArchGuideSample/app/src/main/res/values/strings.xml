@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">Android Arch Guide Sample</string>
+	<string name="user_name">Name</string>
+	<string name="user_age">Age</string>
+</resources>
