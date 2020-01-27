@@ -137,7 +137,11 @@ Coming soon
 
 ### Room, LiveData and ViewModel
 
-Coming soon
+Branch name: android_data_management_room
+
+Branch URL: https://github.com/pethersilva/associateandroiddevelopercertification/tree/android_data_management_room
+
+Reference: https://codelabs.developers.google.com/codelabs/android-training-livedata-viewmodel/index.html#0
 
 ### Repository
 
